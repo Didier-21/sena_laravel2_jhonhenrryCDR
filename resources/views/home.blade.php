@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jhon_Hernandez - @yield('titulo')</title>
+    <title>I.E San Jose CDM  @yield('titulo')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         /* Personalización del navbar */
@@ -10,9 +10,9 @@
             background-color: #78e14b; /* Color de fondo personalizado */
         }
         .navbar-brand, .nav-link, .dropdown-item {
-            color: #ecf0f1 !important; /* Color del texto */
+            color: #010107d8 !important; /* Color del texto */
             font-family: 'Arial', sans-serif; /* Tipo de letra */
-            font-weight: bold; /* Negrita */
+
         }
         .navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
             color: #3498db !important; /* Color al pasar el ratón */
