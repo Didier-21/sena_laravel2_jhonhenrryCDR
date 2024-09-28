@@ -6,8 +6,9 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return view('dashboard'); // Asegúrate de tener una vista llamada 'dashboard.blade.php'
+        $request->user()->authorizeRoles(['user', 'admin']);
+        return view('dashboard');
     }
 }

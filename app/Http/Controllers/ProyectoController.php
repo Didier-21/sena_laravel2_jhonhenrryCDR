@@ -19,10 +19,10 @@ class ProyectoController extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create(Request $request)
     {
+        $request->user()->authorizeRoles(['admin']);
         return view('proyectos.create');
-        //
     }
 
     /**
