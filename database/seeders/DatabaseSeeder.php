@@ -3,8 +3,10 @@
 namespace Database\Seeders;
 
 use App\Models\User;
+use App\Models\Role;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,11 +15,16 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        $this->call(RoleTableSeeder::class);
 
-        User::factory()->create([
+        $user = User::create([
             'name' => 'Test User',
             'email' => 'test@example.com',
+            'password' => Hash::make('password123'),
         ]);
+
+        $user->roles()->attach(Role::where('name', 'user')->first());
+
+        $user->save();
     }
 }
