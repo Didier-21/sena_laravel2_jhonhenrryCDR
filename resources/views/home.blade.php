@@ -105,6 +105,15 @@
                                 <li><a class="dropdown-item" href="#">Directivos</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ingresar
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="/login">Iniciar sesion</a></li>
+                                <li><a class="dropdown-item" href="/register">Registrar</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <form class="d-flex" role="BUSQUEDA">
                         <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
@@ -196,6 +205,17 @@
       </style>
   </head>
   <body>
+    <section>
+        <div class="card text-center">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title"> Proyectos </h5>
+              <p class="card-text">Aqui puedes ver todos los proyectos que tenemos </p>
+              <a href="/proyectos" class="btn btn-primary"> Ir a listado de proyectos </a>
+            </div>
+          </div>
+      </section>
 
       <!-- Sección de Información de Interés -->
       <section class="info-section">
@@ -240,6 +260,7 @@
               </div>
           </div>
       </section>
+
 
       <!-- Scripts de Bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

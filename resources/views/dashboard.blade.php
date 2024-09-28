@@ -22,6 +22,7 @@
             <div class="bg-white p-4 rounded-lg shadow-md">
                 <h2 class="text-xl font-semibold text-green-600">Cursos Disponibles</h2>
                 <p class="text-gray-700">Explora nuestros cursos y programas educativos en el área agropecuaria.</p>
+                <a href="#" class="btn btn-primary">leeer mas </a>
             </div>
             <div class="bg-white p-4 rounded-lg shadow-md">
                 <h2 class="text-xl font-semibold text-green-600">Recursos Educativos</h2>
