@@ -28,6 +28,11 @@
                 <h2 class="text-xl font-semibold text-green-600">Recursos Educativos</h2>
                 <p class="text-gray-700">Accede a materiales y recursos que te ayudarán en tu aprendizaje.</p>
             </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-green-600">Proyectos</h2>
+                <p class="text-gray-700">Explora los proyectos que afrece nuestra institucion educativa.</p>
+                <a href="/proyectos" class="btn btn-primary"> Ver Proyectos </a>
+            </div>
         </section>
     </div>
 </body>
