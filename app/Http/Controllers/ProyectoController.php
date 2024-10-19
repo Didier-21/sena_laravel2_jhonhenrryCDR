@@ -24,7 +24,6 @@ class ProyectoController extends Controller
         $request->user()->authorizeRoles(['admin']);
         return view('proyectos.create');
     }
-
     /**
      * Store a newly created resource in storage.
      */
